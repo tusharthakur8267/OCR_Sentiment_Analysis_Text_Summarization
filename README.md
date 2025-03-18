@@ -36,8 +36,8 @@ Steps
 
 Clone the repository:
 
-git clone https://github.com/tusharthakur8267/OCR_Sentiment_Analysis_Text_Summarization.git
-cd OCR_Sentiment_Analysis_Text_Summarization
+"git clone https://github.com/tusharthakur8267/OCR_Sentiment_Analysis_Text_Summarization.git
+cd OCR_Sentiment_Analysis_Text_Summarization"
 
 Install dependencies:
 
