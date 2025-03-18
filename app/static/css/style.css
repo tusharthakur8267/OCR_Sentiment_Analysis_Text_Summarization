@@ -1,0 +1,109 @@
+/* Reset some basic elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* Light gray background */
+  color: #333; /* Dark text color for contrast */
+  line-height: 1.6; /* Improved readability */
+}
+
+/* Main container */
+.container {
+  max-width: 800px; /* Maximum width for the form */
+  margin: 20px auto; /* Center align with margin */
+  padding: 20px; /* Padding inside the container */
+  background: white; /* White background for the form */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Input Field Styling */
+.input-field {
+  margin-bottom: 20px; /* Space between input fields */
+}
+
+label {
+  font-weight: bold; /* Bold labels */
+  display: block; /* Make label occupy full width */
+  margin-bottom: 5px; /* Space between label and input */
+}
+
+.file-field {
+  display: flex; /* Use flexbox for button and input alignment */
+  align-items: center; /* Center items vertically */
+}
+
+.upload-btn {
+  background-color: #4CAF50; /* Button color */
+  color: white; /* Text color */
+  border: none; /* Remove border */
+  padding: 10px 15px; /* Padding */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.upload-btn:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.file-path-wrapper {
+  flex: 1; /* Allow the input to take available space */
+  margin-left: 10px; /* Space between button and input */
+}
+
+.file-path {
+  border: 1px solid #ccc; /* Border for the input field */
+  padding: 10px; /* Padding */
+  border-radius: 5px; /* Rounded corners */
+  width: 100%; /* Full width */
+}
+
+/* Button Styling */
+.extract-btn {
+  background-color: #007BFF; /* Bootstrap primary button color */
+  color: white; /* Text color */
+  padding: 15px 30px; /* Padding for button */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.extract-btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Extracted Text Styling */
+h5 {
+  margin: 20px 0 10px; /* Margin for headings */
+}
+
+p {
+  margin: 10px 0; /* Space between paragraphs */
+  background: #e9ecef; /* Light gray background for text */
+  padding: 10px; /* Padding for readability */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Image Display */
+.uploaded-image {
+  max-width: 100%; /* Responsive image */
+  height: auto; /* Maintain aspect ratio */
+  border: 1px solid #ccc; /* Optional border */
+  margin-top: 20px; /* Space above the image */
+}
+
+/* Summary Section */
+.summary {
+  margin-top: 20px; /* Space above summary */
+  padding: 15px; /* Padding for summary */
+  background: #f9f9f9; /* Slightly different background */
+  border-left: 4px solid #007BFF; /* Left border for emphasis */
+}
